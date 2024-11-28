@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<h1> Danh sách Câu lạc bộ </h1>
+</head>
+<body>
+<dl><dt><b>Câu lạc bộ</b></dt><dd>Trong trường có nhiều câu lạc bộ hoạt động ở nhiều lĩnh vực khác nhau. Sau đây là các câu lạc bộ:</dd></dl>
+<ul>
+<li style="color:blue"><b>THỂ THAO</b></li>
+<ol type="1">
+<li>Bóng đá</li>
+<li>Bóng chuyền</li>
+<li>Bóng rổ</li>
+<li>Võ</li>
+<ol type="a"> 
+<li>Karatedo</li>
+<li>Taekwondo</li>
+<li>Vovinam</li>
+</ol>
+<li>Bơi</li>
+</ol>
+<li style="color:blue"><b>NGHỆ THUẬT</b></li>
+<ol type="1">
+<li>Mĩ thuật</li>
+<li>Nhiếp ảnh<li>
+<li>Âm nhạc</li>
+<ol type="a">
+<li>Thanh nhạc</li>
+<li>Piano</li>
+<li>Violin</li>
+</ol>
+<li>Khiêu vũ</li>
+</ol>
+</ul>
+</body>
