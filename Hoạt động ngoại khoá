@@ -1,14 +1,43 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<h1> Giới thiệu các hoạt động ngoại khoá </h1>
+<meta charset="UTF-8">
 </head>
 <body>
+<h1> Giới thiệu các hoạt động ngoại khoá </h1>
+<div style="font-size:20px">
 <dl>
-<dd>Trường THPT Nguyễn Bỉnh Khiêm có bề dày thành tích về học tập và các hoạt động thể thao, văn nghệ của thành phố. <br>Các câu lạc bộ ngoại khoá hoạt động sôi nổi và luôn được nhà trường tạo điều kiện để sinh hoạt.<br>Những năm qua, trường đạt nhiều thành tích trong các cuộc thi cấp thành phố, quận</dd>
+<dd>Trường THPT Nguyễn Bỉnh Khiêm có bề dày thành tích về học tập và các hoạt động thể thao, văn nghệ của thành phố. <br>Các câu lạc bộ ngoại khoá hoạt động sôi nổi và luôn được nhà trường tạo điều kiện để sinh hoạt.<br>Những năm qua, trường đạt nhiều thành tích trong các cuộc thi cấp tỉnh, huyện.</dd>
 </dl>
-<ul style="list-style-type: circle">
+<ul>
 <li>03 HCV cấp thành phố Bơi lội</li>
 <li>02 HCV, 06 HCB và 05 HCĐ cấp thành phố các môn Võ thuật</li>
 <li>01 giải ba môn Bóng đá nam cấp thành phố</li>
 <li>01 giải nhì, 02 giải Ba Hội thi biểu diễn âm nhạc quận</li>
+<a href="#CLBTT"> Theo dõi lịch hoạt động các CLB Thể thao</a>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<table id="CLBTT" border="1">
+<caption><b>Lịch hoạt động CLB Thể thao</b></caption><tr style="border:1px solid"><th rowspan="2">Bộ môn</th>
+<th rowspan="2">GV phụ trách</th>
+<th colspan="5">Ngày</th></tr>
+<tr><th>Thứ 2</th><th>Thứ 3</th><th>Thứ 4</th><th>Thứ 5</th><th>Thứ 6</th></tr>
+<tr>
+<td>Bóng đá</td><td>Thầy Khải</td><td> </td><td style="text-align:center;">X </td><td> </td><td> </td><td style="text-align:center;">X </td>
+</tr>
+<tr>
+<td>Bóng chuyền</td><td>Cô Lan</td><td style="text-align:center;">X </td><td> </td><td> </td><td> </td><td> </td>
+</tr>
+<tr>
+<td>Bóng rổ</td><td>Thầy Vũ</td><td> </td><td> </td><td style="text-align:center;">X </td><td> </td><td> </td>
+</tr>
+<tr>
+<td>Võ thuật</td>
+<td>Thầy Hoàng - Karatedo<br> Thầy Đức - Taekwondo<br> Thầy Thắng - Vovinam</td>
+<td style="text-align:center;">X </td><td style="text-align:center;">X </td><td> </td><td style="text-align:center;">X </td><td> </td></tr>
+<tr>
+<td>Bơi</td><td>Cô Bích</td><td> </td><td> </td><td style="text-align:center;">X </td><td> </td><td style="text-align:center;">X </td>
+</tr>
+</table>
+
+
+
