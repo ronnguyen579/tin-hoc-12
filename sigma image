@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Card with Description</title>
+</head>
+<body>
+    <table border="0" cellspacing="10">
+        <tr>
+            <td>
+                <img src="https://via.placeholder.com/150" alt="Sample Image" width="150">
+            </td>
+            <td>
+                <p>
+                    Đây là một mô tả mẫu cho hình ảnh. Bạn có thể thay đổi nội dung mô tả này tùy theo ý muốn.
+                </p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
