@@ -1,0 +1,108 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/eb52c1e6f5.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <style>
+        body {
+            background-color: #2C0735; 
+            font-family:Verdana;
+        }
+        h1 {
+            color: #97DFFC;
+        }
+        h1::selection {
+            color: #d8d8d8;
+        }
+        h4::selection {
+            color: #d8d8d8;
+        }
+        li {
+            color: #858AE3;
+        }
+        li::selection {
+            color: #d8d8d8;
+        }
+        p {
+            color: #858AE3;
+        }
+        p::selection {
+            color: #d8d8d8;
+        }
+        a {
+            color: #858AE3;
+        }
+        a::selection {
+            color: #d8d8d8;
+        }
+    </style>
+    <center>
+        <table border="0" cellspacing="10">
+            <tr>
+                <td>
+                    <img src="https://i.pinimg.com/736x/e1/3f/53/e13f5388438d1fb5d5a56f827321c9d6.jpg" alt="Sample Image" width="150" style="border: 5px solid #4E148C; padding: 3px; margin: 5px" >
+                </td>
+                <td>
+                    <h1>
+                        Tóm tắt tiểu sử
+                    </h1>
+                    <ul>
+                        <li>
+                            Họ và tên: Nguyễn Khải Toàn
+                        </li>
+                        <li>
+                            Biệt danh: Ron 
+                        </li>
+                        <li>
+                            Ngày sinh: 02/06/2007
+                        </li>
+                        <li>
+                            Quê quán: TP.HCM
+                        </li>
+                        <li>
+                            Sở trường: Toán học
+                        </li>
+                </td>
+            </tr>
+        </table>
+    </center>
+        <h1>
+            Giới thiệu bản thân
+        </h1>
+        <p>
+            Xin chào, mình là Khải Toàn, học sinh trường THPT Trưng Vương. Mình có niềm đam mê và sở trường đặc biệt với môn Toán học, luôn yêu thích khám phá và giải quyết các bài toán thú vị. Rất vui được làm quen và học hỏi thêm từ mọi người!
+        </p>
+        <h4 style="color: #97DFFC"> 
+            Facebook của 3 người bạn đặc biệt của tớ:
+        </h4>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100062167751798">
+                        Người bạn mà tớ yêu quý nhất
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100053228833022">
+                        Người bạn ấm áp nhất + vẽ siêu đẹp
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100053826884481">
+                        Người bạn mới quen nhưng luôn xuất hiện khi tớ cần nhất
+                    </a>
+                </li>
+                <li>
+                    <p>
+                        Bonus:
+                            <a href="https://chatgpt.com/">
+                                Người mà tớ luôn tin tưởng
+                            </a>
+                    </p>
+                </li>
+            </ul>  
+</body>
+</html>
