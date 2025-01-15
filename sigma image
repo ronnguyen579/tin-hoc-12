@@ -1,22 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Card with Description</title>
-</head>
-<body>
-    <table border="0" cellspacing="10">
-        <tr>
-            <td>
-                <img src="https://via.placeholder.com/150" alt="Sample Image" width="150">
-            </td>
-            <td>
-                <p>
-                    Đây là một mô tả mẫu cho hình ảnh. Bạn có thể thay đổi nội dung mô tả này tùy theo ý muốn.
-                </p>
-            </td>
-        </tr>
+<form action="/action_page.php">
+  <fieldset>
+    <table>
+      <tr>
+        <td><label for="fullname">Họ và tên:</label></td>
+        <td><input type="text" id="fullname" name="fullname" required></td>
+      </tr>
+      <tr>
+        <td><label for="id">CCCD:</label></td>
+        <td><input type="text" id="id" name="id" required></td>
+      </tr>
+      <tr>
+        <td><label for="dob">Ngày sinh:</label></td>
+        <td><input type="date" id="dob" name="dob" required></td>
+      </tr>
+      <tr>
+        <td><label>Giới tính:</label></td>
+        <td>
+          <input type="radio" id="male" name="gender" value="Nam" required>
+          <label for="male">Nam</label>
+          <input type="radio" id="female" name="gender" value="Nữ" required>
+          <label for="female">Nữ</label>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="phone">Điện thoại:</label></td>
+        <td><input type="tel" id="phone" name="phone" required></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" id="email" name="email" required></td>
+      </tr>
+      <tr>
+        <td><label for="address">Địa chỉ liên hệ:</label></td>
+        <td><textarea id="address" name="address" rows="3"></textarea></td>
+      </tr>
+      <tr>
+        <td><label>Tham gia CLB:</label></td>
+        <td>
+          <input type="checkbox" id="basketball" name="club" value="Bóng rổ">
+          <label for="basketball">Bóng rổ</label><br>
+          <input type="checkbox" id="volleyball" name="club" value="Bóng chuyền">
+          <label for="volleyball">Bóng chuyền</label><br>
+          <input type="checkbox" id="football" name="club" value="Bóng đá">
+          <label for="football">Bóng đá</label><br>
+          <input type="checkbox" id="swimming" name="club" value="Bơi lội">
+          <label for="swimming">Bơi lội</label><br>
+          <input type="checkbox" id="martialarts" name="club" value="Võ thuật">
+          <label for="martialarts">Võ thuật</label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align: center;">
+          <button type="submit">Gửi thông tin</button>
+          <button type="reset">Làm lại</button>
+        </td>
+      </tr>
     </table>
-</body>
-</html>
+  </fieldset>
+</form>
