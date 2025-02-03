@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Đăng ký khám bệnh cho chó</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            max-width: 400px;
+
+            margin: auto;
+
+            padding: 20px;
+
+            background-color: #f9f9f9;
+
+        }
+
+        h1 {
+
+            font-size: 20px;
+
+            text-align: center;
+
+            margin-bottom: 20px;
+
+            color: #333;
+
+        }
+
+        label {
+
+            font-size: 14px;
+
+            margin-bottom: 5px;
+
+            display: block;
+
+        }
+
+        select {
+
+            width: 100%;
+
+            padding: 12px 10px;
+
+            border: 1px solid #ccc;
+
+            border-radius: 5px;
+
+            font-size: 14px;
+
+            background-color: #fff;
+
+            appearance: none;
+
+            margin-bottom: 20px; /* Tạo khoảng cách giữa select và phần dưới */
+
+        }
+
+        select:focus {
+
+            border-color: #00cba9;
+
+            outline: none;
+
+        }
+
+        .recaptcha-container {
+
+            border: 1px solid #ccc;
+
+            border-radius: 5px;
+
+            padding: 12px 15px;
+
+            background-color: #fff;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: space-between;
+
+            margin-bottom: 20px; /* Tạo khoảng cách giữa reCAPTCHA và nút */
+
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+        }
+
+        .recaptcha-container input[type="checkbox"] {
+
+            width: 20px;
+
+            height: 20px;
+
+            margin-right: 10px;
+
+        }
+
+        .recaptcha-container label {
+
+            font-size: 14px;
+
+            color: #333;
+
+            margin: 0;
+
+        }
+
+        .recaptcha-container img {
+
+            height: 30px;
+
+        }
+
+        button {
+
+            width: 100%;
+
+            background-color: #00cba9;
+
+            color: white;
+
+            border: none;
+
+            padding: 14px;
+
+            border-radius: 5px;
+
+            font-size: 16px;
+
+            cursor: pointer;
+
+            transition: background-color 0.3s ease;
+
+            font-weight: bold;
+
+        }
+
+        button:hover {
+
+            background-color: #00b89f;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Đăng ký khám bệnh cho chó</h1>
+
+    <form id="dogForm">
+
+        <label for="service">Chọn dịch vụ khám bệnh:</label>
+
+        <select id="service" name="service">
+
+            <option value="tong-quat">Khám tổng quát</option>
+
+            <option value="chuyen-sau">Khám chuyên sâu</option>
+
+            <option value="xet-nghiem">Xét nghiệm</option>
+
+        </select>
+
+
+        <div class="recaptcha-container">
+
+            <div style="display: flex; align-items: center;">
+
+                <input type="checkbox" id="confirm" name="confirm">
+
+                <label for="confirm">Xác nhận bạn là chó</label>
+
+            </div>
+
+            <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="reCAPTCHA logo">
+        </div>
+        <button type="submit">Đăng ký</button>
+    </form>
+    <script>
+        // Thêm thông báo khi ấn "Đăng ký"
+        document.getElementById('dogForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const isChecked = document.getElementById('confirm').checked;
+            if (isChecked) {
+                alert('Bạn đã xác nhận bạn là chó thành công!');
+            } else {
+                alert('Vui lòng xác nhận bạn là chó trước khi đăng ký!');
+            }
+        });
+    </script>
+</body>
+</html>
