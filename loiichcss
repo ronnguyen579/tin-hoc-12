@@ -20,3 +20,72 @@
     </div>
 </body>
 </html>
+
+
+/* Thiết lập chung */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f7f7;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container chính */
+.container {
+    background-color: white;
+    border: 2px solid red;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* Tiêu đề chính */
+h1 {
+    color: red;
+    font-size: 24px;
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+}
+
+/* Các đoạn văn bản chung */
+.container > p {
+    font-size: 16px;
+    color: black;
+}
+
+/* Danh sách */
+.container ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Các mục trong danh sách */
+.container ul > li {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Các phần tử strong bên trong li */
+.container ul li strong {
+    color: darkblue;
+}
+
+/* Các phần tử span có class highlight nằm trong li */
+.container ul li span.highlight {
+    color: blue;
+    font-weight: bold;
+}
+
+/* Định dạng dòng đầu tiên của đoạn văn đầu tiên */
+.container > p:first-of-type::first-line {
+    font-weight: bold;
+    color: darkgreen;
+}
+
+/* Tô màu các mục li chẵn trong danh sách */
+.container ul li:nth-child(even) {
+    background-color: #f0f0f0;
+    padding: 5px;
+    border-radius: 5px;
+}
