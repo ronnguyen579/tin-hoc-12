@@ -1,3 +1,5 @@
+HTML
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -26,3 +28,32 @@
       </div> <br>
   </body>
 </html>
+
+
+CSS (styles.css)
+h1 {color: white; background-color:#0096FF; text-align:center}
+h2 {font-family: Verdana, sans-serif; text-align:center}
+h3 {font-family: Verdana, sans-serif; text-indent: 30px;}
+p {font-family: Verdana, Sans-Serif;}
+h2 > span {color: crimson;}
+h3 > span {color: crimson;}
+.info-box {
+    background-color: #fde7f3; /* Light pink background */
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 600px; /* Limit width */
+}
+
+.info-box p {
+    font-weight: bold;
+}
+
+.info-box ul {
+    padding-left: 20px;
+}
+
+.info-box li {
+    margin-bottom: 5px;
+}
+
+
