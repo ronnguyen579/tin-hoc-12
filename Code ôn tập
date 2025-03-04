@@ -12,23 +12,26 @@ HTML
       <h2>BÀI 1. <span><strong>EM CÓ THỂ LÀM GÌ VỚI MÁY TÍNH?</strong></span></h2>
       <h3><span><strong>I. KHỞI ĐỘNG</strong></span></h3>
           <p>
-            Là học sinh lớp 5, An đã học sử dụng chuột, bàn phím đúng cách và tắt máy tính một cách an toàn. An cũng biết cách truy cập Internet để tìm kiếm thông tin. An còn có thể tạo ra những sản phẩm số như văn bản hay bài trình chiếu và quản lí chúng dưới dạng tệp trong máy tính.<br><br>
-            An biết máy tính còn giúp bạn nhiều hơn nữa trong các hoạt động như học tập, giải trí, trao đổi thông tin,... Em hãy cùng tìm hiểu với An xem máy tính còn có thể giúp chúng ta làm được những gì nữa nhé!
+              Là học sinh lớp 5, An đã học sử dụng chuột, bàn phím đúng cách và tắt máy tính một cách an toàn. An cũng biết cách truy cập Internet để tìm kiếm thông tin. An còn có thể tạo ra những sản phẩm số như văn bản hay bài trình chiếu và quản lí chúng dưới dạng tệp trong máy tính.<br><br>
+              An biết máy tính còn giúp bạn nhiều hơn nữa trong các hoạt động như học tập, giải trí, trao đổi thông tin,... Em hãy cùng tìm hiểu với An xem máy tính còn có thể giúp chúng ta làm được những gì nữa nhé!
           </p>
-      <div class="info-box">
-        <p><strong>Sau bài này em sẽ:</strong></p>
-          <ul style="list-style-type: square">
-            <li> 
-                Nêu được ví dụ máy tính giúp giải trí, học tập, tìm kiếm, trao đổi thông tin, hợp tác với bạn bè và tạo ra sản phẩm số theo ý tưởng của bản thân.
-            </li>
-            <li>  
-                Thể hiện được mong muốn biết sử dụng máy tính thành thạo để làm được nhiều việc hơn.
-            </li>
-          </ul>
-      </div> <br>
-  </body>
+              <div class="info-box">
+                  <p>
+                    <strong>
+                      Sau bài này em sẽ:
+                    </strong>
+                 </p>
+                    <ul style="list-style-type: square">
+                      <li> 
+                          Nêu được ví dụ máy tính <span>giúp giải trí, học tập, tìm kiếm, trao đổi thông tin</span>, hợp tác với bạn bè và tạo ra sản phẩm số theo ý tưởng của bản thân.
+                      </li>
+                      <li>  
+                          Thể hiện được <span>mong muốn biết sử dụng máy tính thành thạo</span> để làm được nhiều việc hơn.
+                      </li>
+                    </ul>
+              </div>
+</body>
 </html>
-
 
 CSS (styles.css)
 /* Tiêu đề chính */
@@ -101,12 +104,6 @@ h3 + p {
     text-decoration: underline;
 }
 
-/* Mục danh sách cuối cùng trong danh sách */
-.info-box ul > li:last-child {
-    font-weight: bold;
-    color: darkred;
-}
-
 /* Định dạng tiêu đề trong hộp thông tin */
 .info-box > h3 {
     text-align: left;
@@ -116,12 +113,9 @@ h3 + p {
 /* Mục span nằm trong li của ul thuộc info-box */
 .info-box ul > li > span {
     font-weight: bold;
-    color: darkblue;
+    color: #ff4a4a;
 }
 
-/* Định dạng đoạn văn bản cuối cùng của hộp thông tin */
-.info-box > p:last-of-type {
-    font-style: italic;
     color: #555;
 }
 
