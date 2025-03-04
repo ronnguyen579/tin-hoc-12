@@ -31,50 +31,98 @@ HTML
 
 
 CSS (styles.css)
+/* Tiêu đề chính */
 h1 {
     color: white;
     background-color: #0096FF;
     text-align: center;
 }
 
-h2 {
+/* Tiêu đề phụ */
+h2, h3 {
     font-family: Verdana, sans-serif;
+}
+
+h2 {
     text-align: center;
 }
 
 h3 {
-    font-family: Verdana, sans-serif;
     text-indent: 30px;
 }
 
+/* Định dạng văn bản */
 p {
     font-family: Verdana, sans-serif;
 }
 
 /* Bộ chọn quan hệ */
-h2 > span,
+/* Áp dụng màu crimson cho span nằm trực tiếp trong h2 và h3 */
+h2 > span, 
 h3 > span {
     color: crimson;
 }
 
-/* Hộp thông tin */
+/* Các đoạn văn bản ngay sau tiêu đề */
+h3 + p {
+    font-style: italic;
+}
+
+/* Chỉnh style cho danh sách nằm trong info-box */
 .info-box {
     background-color: #fde7f3; /* Light pink background */
     padding: 15px;
     border-radius: 10px;
-    max-width: 600px; /* Limit width */
+    max-width: 600px; /* Giới hạn độ rộng */
 }
 
-.info-box p {
+/* Định dạng văn bản trong hộp thông tin */
+.info-box > p {
     font-weight: bold;
 }
 
-.info-box ul {
+/* Danh sách trong hộp thông tin */
+.info-box > ul {
     padding-left: 20px;
 }
 
-.info-box li {
+/* Mỗi mục danh sách trong hộp thông tin */
+.info-box ul > li {
     margin-bottom: 5px;
+}
+
+/* Định dạng liên kết trong hộp thông tin */
+.info-box a {
+    color: #d63384; /* Màu hồng đậm */
+    text-decoration: none;
+}
+
+.info-box a:hover {
+    text-decoration: underline;
+}
+
+/* Mục danh sách cuối cùng trong danh sách */
+.info-box ul > li:last-child {
+    font-weight: bold;
+    color: darkred;
+}
+
+/* Định dạng tiêu đề trong hộp thông tin */
+.info-box > h3 {
+    text-align: left;
+    color: #cc3366;
+}
+
+/* Mục span nằm trong li của ul thuộc info-box */
+.info-box ul > li > span {
+    font-weight: bold;
+    color: darkblue;
+}
+
+/* Định dạng đoạn văn bản cuối cùng của hộp thông tin */
+.info-box > p:last-of-type {
+    font-style: italic;
+    color: #555;
 }
 
 
