@@ -31,12 +31,33 @@ HTML
 
 
 CSS (styles.css)
-h1 {color: white; background-color:#0096FF; text-align:center}
-h2 {font-family: Verdana, sans-serif; text-align:center}
-h3 {font-family: Verdana, sans-serif; text-indent: 30px;}
-p {font-family: Verdana, Sans-Serif;}
-h2 > span {color: crimson;}
-h3 > span {color: crimson;}
+h1 {
+    color: white;
+    background-color: #0096FF;
+    text-align: center;
+}
+
+h2 {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-family: Verdana, sans-serif;
+    text-indent: 30px;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+}
+
+/* Bộ chọn quan hệ */
+h2 > span,
+h3 > span {
+    color: crimson;
+}
+
+/* Hộp thông tin */
 .info-box {
     background-color: #fde7f3; /* Light pink background */
     padding: 15px;
