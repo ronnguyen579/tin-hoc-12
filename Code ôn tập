@@ -1,39 +1,4 @@
-HTML
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Ôn tập Tin học 12</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-      <h1>CHỦ ĐỀ 1. <strong>MÁY TÍNH VÀ EM</strong></h1>
-      <h2>BÀI 1. <span><strong>EM CÓ THỂ LÀM GÌ VỚI MÁY TÍNH?</strong></span></h2>
-      <h3><span><strong>I. KHỞI ĐỘNG</strong></span></h3>
-          <p>
-              Là học sinh lớp 5, An đã học sử dụng chuột, bàn phím đúng cách và tắt máy tính một cách an toàn. An cũng biết cách truy cập Internet để tìm kiếm thông tin. An còn có thể tạo ra những sản phẩm số như văn bản hay bài trình chiếu và quản lí chúng dưới dạng tệp trong máy tính.<br><br>
-              An biết máy tính còn giúp bạn nhiều hơn nữa trong các hoạt động như học tập, giải trí, trao đổi thông tin,... Em hãy cùng tìm hiểu với An xem máy tính còn có thể giúp chúng ta làm được những gì nữa nhé!
-          </p>
-              <div class="info-box">
-                  <p>
-                    <strong>
-                      Sau bài này em sẽ:
-                    </strong>
-                 </p>
-                    <ul style="list-style-type: square">
-                      <li> 
-                          Nêu được ví dụ máy tính <span>giúp giải trí, học tập, tìm kiếm, trao đổi thông tin</span>, hợp tác với bạn bè và tạo ra sản phẩm số theo ý tưởng của bản thân.
-                      </li>
-                      <li>  
-                          Thể hiện được <span>mong muốn biết sử dụng máy tính thành thạo</span> để làm được nhiều việc hơn.
-                      </li>
-                    </ul>
-              </div>
-</body>
-</html>
-
-CSS (styles.css)
 /* Tiêu đề chính */
 h1 {
     color: white;
