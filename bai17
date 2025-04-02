@@ -1,0 +1,47 @@
+<!DOCTYPE html><html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu HTML và CSS</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Bộ chọn mức độ ưu tiên cao hơn */
+        #title {
+            color: darkred !important;
+            font-size: 24px;
+            text-align: center;
+        }
+        .section-title {
+            color: blue;
+            font-weight: bold;
+        }
+        .content {
+            font-size: 16px;
+            color: black;
+        }
+        .sub-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .link a {
+            color: blue;
+            text-decoration: none;
+        }
+        .link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">Giới thiệu HTML và CSS</h1><h2 class="section-title">HTML là gì</h2>
+<p class="content">
+    <strong>HTML</strong> là tên viết tắt của <em>HyperText Markup Language</em>, ngôn ngữ đánh dấu siêu văn bản, là ngôn ngữ đặc biệt dùng để thiết kế nội dung các trang web và được thể hiện bằng trình duyệt.
+</p>
+
+<h3 class="sub-title">Biểu tượng của HTML5</h3>
+<img src="html5-logo.png" alt="HTML5 logo" width="100">
+
+<p class="link">Tìm hiểu thêm về HTML5: <a href="#">tại đây</a></p>
+
+</body>
+</html>
